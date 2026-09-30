@@ -20,5 +20,6 @@ while principal > 0:
     months = months + 1
     print(months, total_paid, principal)
 
-print('Total paid', total_paid)
-print('Total months', months)
+print(f'Total paid is {total_paid:0.2f} in {months} months')
+
+s = 'hello world'
